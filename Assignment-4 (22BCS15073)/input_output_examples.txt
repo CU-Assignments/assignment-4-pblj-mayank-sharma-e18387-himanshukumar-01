@@ -1,0 +1,101 @@
+=====================================================
+Easy Level: Employee Management System
+=====================================================
+
+--- Employee Management System ---
+1. Add Employee
+2. Update Employee
+3. Remove Employee
+4. Search Employee
+5. Display All Employees
+6. Exit
+Enter your choice: 1
+
+Enter Employee ID: 101
+Enter Employee Name: Himanshu Kumar
+Enter Employee Salary: 50000
+Employee added successfully!
+
+Enter your choice: 1
+Enter Employee ID: 102
+Enter Employee Name: Akash Gupta
+Enter Employee Salary: 60000
+Employee added successfully!
+
+Enter your choice: 5
+--- List of All Employees ---
+ID: 101, Name: Himanshu Kumar, Salary: $50000
+ID: 102, Name: Akash Gupta, Salary: $60000
+
+Enter your choice: 2
+Enter Employee ID to update: 101
+Enter new name: John Wick
+Enter new salary: 55000
+Employee details updated successfully!
+
+Enter your choice: 4
+Enter Employee ID to search: 101
+Employee found:
+ID: 101, Name: John Wick, Salary: $55000
+
+Enter your choice: 3
+Enter Employee ID to remove: 102
+Employee removed successfully!
+
+Enter your choice: 5
+--- List of All Employees ---
+ID: 101, Name: John Wick, Salary: $55000
+
+Enter your choice: 6
+Exiting the system. Goodbye!
+
+
+=====================================================
+Medium Level: Card Collection System
+=====================================================
+
+Enter the number of cards to add: 5
+Enter Card Symbol (Hearts/Spades/Diamonds/Clubs): Hearts
+Enter Card Name/Number (2, 3, King, Queen, etc.): King
+
+Enter Card Symbol (Hearts/Spades/Diamonds/Clubs): Spades
+Enter Card Name/Number (2, 3, King, Queen, etc.): 7
+
+Enter Card Symbol (Hearts/Spades/Diamonds/Clubs): Hearts
+Enter Card Name/Number (2, 3, King, Queen, etc.): Queen
+
+Enter Card Symbol (Hearts/Spades/Diamonds/Clubs): Clubs
+Enter Card Name/Number (2, 3, King, Queen, etc.): Jack
+
+Enter Card Symbol (Hearts/Spades/Diamonds/Clubs): Diamonds
+Enter Card Name/Number (2, 3, King, Queen, etc.): Ace
+
+Enter a symbol to search for cards: Hearts
+Cards with symbol 'Hearts':
+King
+Queen
+
+Enter a symbol to search for cards: Diamonds
+Cards with symbol 'Diamonds':
+Ace
+
+All Cards in the Collection:
+Hearts: [King, Queen]
+Spades: [7]
+Clubs: [Jack]
+Diamonds: [Ace]
+
+
+=====================================================
+Hard Level: Ticket Booking System with Multithreading
+=====================================================
+
+VIP-1 booked 2 ticket(s).
+VIP-2 booked 1 ticket(s).
+Regular-1 booked 1 ticket(s).
+Regular-2 failed to book. Not enough seats.
+
+Explanation:
+- VIP-1 and VIP-2 got their seats first because they had higher priority.
+- Regular-1 got the remaining seat.
+- Regular-2 failed as seats were full.
